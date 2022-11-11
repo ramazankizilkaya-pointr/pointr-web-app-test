@@ -1,0 +1,22 @@
+{
+  "name": "pointr-web-app-test",
+  "version": "1.0.0",
+  "description": "cypress ui tests for pointr web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome --headless",
+    "test:firefox": "cypress run --browser firefox --headless",
+    "cypress": "cypress open"
+  },
+  "author": "ramazan kizilkaya",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^10.11.0",
+    "cypress-real-events": "^1.7.2",
+    "cypress-wait-until": "^1.7.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
