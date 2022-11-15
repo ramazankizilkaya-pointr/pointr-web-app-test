@@ -60,3 +60,10 @@ Scenario: As a web app user, I should be able to expand a search group and click
     When I click on random search result from the expanded search group
     When I click on Directions button
     Then Set up a route modal should be displayed
+
+Scenario: As a web app user, I should be able to filter the search results by location
+    When I click on search input
+    When I remember the number of Location Filters
+    When I type "Restroom"
+    When I filter the search results for each option in order
+    Then I should verify the search results are filtered

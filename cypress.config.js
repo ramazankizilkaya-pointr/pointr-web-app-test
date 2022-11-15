@@ -17,7 +17,7 @@ async function setupNodeEvents(on, config) {
 
 module.exports = defineConfig({
   e2e: {
-    baseUrl: "https://pointr-sample-web-app.pointr.cloud/",
+    baseUrl: "https://pointr-sample-web-app.pointr.cloud",
     defaultCommandTimeout: 50000,
     specPattern: "./cypress/e2e/**/*.feature",
     screenshotsFolder: "./cypress/results/screenshots",
